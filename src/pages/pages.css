@@ -1,0 +1,1033 @@
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Common Breakpoints :
+1. Mobile Devices : 320px - 480px
+2. iPads, Tablets : 481px - 768px
+3. Small Screens, Laptops : 769px - 1024px
+4. Large Screens, Desktops : 1025px - 1200px
+5. Extra Large Screens, TV : 1201px and more */
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  * {
+    margin-right: 0;
+    padding-right: 0;
+    /* overflow-x: hidden; */
+  }
+}
+
+/* Homepage */
+.container-for-header-and-navbar {
+  background-color: #f1f3ff;
+}
+
+.footerInHomepage {
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+  /* border: 1px solid; */
+}
+
+.footerInHomepage .footer-container {
+  width: 1200px;
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .footerInHomepage {
+    justify-content: flex-start;
+    padding-left: 32px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .footerInHomepage {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .footerInHomepage .footer-container {
+    width: 769px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .footerInHomepage {
+    padding-right: 130px;
+  }
+
+  .footerInHomepage .footer-container {
+    width: 992px;
+  }
+}
+
+/* SearchCar Page */
+/* Screen Overlay */
+.filter-container-onSearchPage :hover {
+  box-shadow: 0 0 0 100000px rgb(0 0 0 / 65%);
+  transition: box-shadow 0.5s;
+}
+
+.container-for-filter-and-cardFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border: 1px solid; */
+}
+
+.footerInSearchCar {
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+  /* border: 1px solid; */
+}
+
+.footerInSearchCar .footer-container {
+  width: 1200px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .container-for-filter-and-cardFilter {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .container-for-filter-and-cardFilter {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container-for-filter-and-cardFilter {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    /* width: 768px; */
+  }
+
+  .footerInSearchCar {
+    justify-content: flex-start;
+    padding-left: 32px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .container-for-filter-and-cardFilter {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    /* width: 991px; */
+    /* border: 1px solid; */
+  }
+
+  .footerInSearchCar {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .footerInSearchCar .footer-container {
+    width: 769px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .container-for-filter-and-cardFilter {
+    /* width: 1320px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerInSearchCar {
+    padding-left: 20px;
+    padding-right: 170px;
+  }
+
+  .footerInSearchCar .footer-container {
+    width: 992px !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}
+
+/* Car Detail Page */
+.empty-header {
+  background-color: #f1f3ff;
+  width: 100%;
+  height: 250px;
+}
+
+.filter-detail-outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-info-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px !important;
+  /* padding-left: 64px; */
+  /* border: 1px solid; */
+}
+
+.detail-info-inner-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1047px;
+  /* border: 1px solid; */
+}
+
+.footerInCarDetail {
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+  /* border: 1px solid; */
+}
+.footerInCarDetail .footer-container {
+  width: 1200px !important;
+  /* padding-left: 78px; */
+  /* border: 1px solid; */
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359.5px) {
+  .footerInCarDetail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .detail-info-container {
+    display: flex;
+    justify-content: center;
+  }
+  .detail-info-inner-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footerInCarDetail {
+    padding-left: 0;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .empty-header {
+    background-color: #f1f3ff;
+    height: 250px;
+  }
+
+  .filter-detail-outer-container {
+    display: flex !important;
+    justify-content: center !important;
+    padding-right: 0 !important;
+  }
+  .detail-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0;
+    /* border: 1px solid; */
+  }
+  .detail-info-inner-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInCarDetail {
+    justify-content: flex-start;
+    padding-left: 32px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .filter-detail-outer-container {
+    display: flex !important;
+    justify-content: center !important;
+    padding-right: 0 !important;
+    /* border: 1px solid; */
+  }
+  .detail-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0;
+    /* border: 1px solid; */
+  }
+  .detail-info-inner-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInCarDetail {
+    padding-left: 20px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .filter-detail-outer-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+  .detail-info-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+  .detail-info-inner-container {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid; */
+  }
+
+  .footerInCarDetail {
+    padding-left: 0;
+    padding-right: 190px;
+    /* border: 1px solid; */
+  }
+
+  .footerInCarDetail .footer-container {
+    width: 900px !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .empty-header {
+    background-color: #f1f3ff;
+    height: 250px;
+  }
+
+  .filter-detail-outer-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+  .detail-info-container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .detail-info-inner-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+  }
+
+  .footerInCarDetail {
+    padding-left: 0;
+    padding-right: 56px;
+  }
+
+  .footerInCarDetail .footer-container {
+    width: 1200px;
+  }
+}
+
+/* Register Page */
+.registerPage-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .registerPage-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .registerPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .registerPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .registerPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .registerAdminPage-container {
+    width: 1320px;
+  }
+}
+
+/* Login Page Customer */
+.loginPage-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .loginPage-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .loginPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .loginPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .loginPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Login Page Admin */
+
+/* Payment Page */
+/* Payment1 */
+
+/* Responsive for Small Phone */
+
+.outer-containerForBankPayment-and-CardPaymentDetail {
+  display: flex;
+  justify-content: center;
+  /* height: auto; */
+  margin-bottom: 20px;
+  /* border: 1px solid; */
+}
+
+.inner-containerForBankPayment-and-CardPaymentDetail {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.footerInPayment1 {
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+  /* border: 1px solid; */
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .empty-header {
+    background-color: #f1f3ff;
+    /* width: 100%; */
+    height: 560px;
+  }
+  .outer-containerForBankPayment-and-CardPaymentDetail {
+    margin-top: -300px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    left: 0 !important;
+    right: 0 !important;
+    /* overflow-x: hidden; */
+    /* border: 1px solid; */
+  }
+
+  .inner-containerForBankPayment-and-CardPaymentDetail {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    /* width: 239px !important; */
+    /* position: relative;
+    bottom: 300px; */
+    /* overflow-x: hidden; */
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .outer-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+    /* overflow-x: hidden; */
+  }
+
+  .inner-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 220px !important; */
+    /* border: 1px solid; */
+    /* overflow-x: hidden; */
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .outer-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 30px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .outer-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: center; */
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .outer-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerForBankPayment-and-CardPaymentDetail {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 190px; */
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment1 .footer-container {
+    width: 900px !important;
+    /* position: relative;
+    right: 85px; */
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .footerInPayment1 {
+    display: flex;
+    justify-content: center;
+    /* padding-right: 340px; */
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment1 .footer-container {
+    width: 1200px;
+    position: relative;
+    right: 85px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Payment2 */
+.outer-container-for-payBefore-and-paymentConfirmation {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+.inner-container-for-payBefore-and-paymentConfirmation {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.outer-containerFortransferPayment-and-paymentInstruction {
+  display: flex;
+  justify-content: center;
+  padding-right: 590px;
+  /* border: 1px solid; */
+}
+
+.inner-containerFortransferPayment-and-paymentInstruction {
+  width: 608px;
+  position: absolute;
+  top: 425px;
+  /* border: 1px solid; */
+}
+
+.footerInPayment2 {
+  margin-top: 50px;
+  width: 1500px;
+  position: relative;
+  right: 164px;
+  /* border: 1px solid; */
+}
+
+/* Responsive for Medium Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .outer-container-for-payBefore-and-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-container-for-payBefore-and-paymentConfirmation {
+    width: 240px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 420px !important;
+    /* overflow-x: hidden; */
+    /* border: 1px solid; */
+  }
+
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 370px;
+
+    padding-top: 0 !important;
+    padding-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    /* width: 100% !important; */
+    position: relative;
+    top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0 !important;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    margin-top: 30px !important;
+    width: 100% !important;
+    position: relative;
+    right: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -370px !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .outer-container-for-payBefore-and-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-container-for-payBefore-and-paymentConfirmation {
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    /* border: 1px solid; */
+  }
+
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    /* width: 480px; */
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .outer-container-for-payBefore-and-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-container-for-payBefore-and-paymentConfirmation {
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    /* border: 1px solid; */
+  }
+
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .outer-container-for-payBefore-and-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-container-for-payBefore-and-paymentConfirmation {
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 95px;
+    /* border: 1px solid; */
+  }
+
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    position: relative;
+    bottom: 50px;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    width: 100%;
+    margin-top: 0;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0;
+  }
+
+  .footerInPayment2 .footer-container {
+    padding-top: 80px;
+    margin-bottom: -50px;
+  }
+
+  .footerInPayment2 .connect-with-us {
+    margin-right: 20px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .outer-container-for-payBefore-and-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-container-for-payBefore-and-paymentConfirmation {
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 95px;
+    /* border: 1px solid; */
+  }
+
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    position: relative;
+    bottom: 50px;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    width: 900px;
+    margin-top: 0;
+    display: flex;
+    position: relative;
+    right: 0;
+    padding-right: 100px;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 .footer-container {
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: -50px;
+    /* border: 1px solid; */
+  }
+
+  .footer-navigation {
+    position: relative;
+    bottom: 8px !important;
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .outer-containerFortransferPayment-and-paymentInstruction {
+    /* width: 908px; */
+    margin-left: 0;
+    padding-right: 590px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .inner-containerFortransferPayment-and-paymentInstruction {
+    width: 608px;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 {
+    width: 1200px;
+    display: flex;
+    position: relative;
+    right: 0;
+    /* border: 1px solid; */
+  }
+
+  .footerInPayment2 .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+  }
+}
+
+/* E-Ticket */
+.empty-header-for-eTicketPage {
+  background-color: #f1f3ff;
+  width: 100%;
+  height: 150px;
+}
+
+.container-for-PaymentReceipt {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+.footer-In-ETicketPage {
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+  /* border: 1px solid; */
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .eTicketPage-container .footer-container {
+    padding-left: 32px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}
+
+/* Login Admin Page */
+.loginAdminPage-container {
+  display: flex;
+  justify-content: space-between;
+}

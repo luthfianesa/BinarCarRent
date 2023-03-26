@@ -1,0 +1,260 @@
+.packageDetail-container {
+  border: 1px solid #e7e3e3;
+  padding-left: 30px;
+  margin-top: 0 !important;
+  width: 605px;
+  height: fit-content;
+  border-radius: 8px;
+  /* margin-left: 80px; */
+  /* position: relative;
+  left: 95px; */
+  /* border: 1px solid; */
+}
+.accordion {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.accordion-packageDetail .accordion-item {
+  border: none !important;
+}
+
+.accordion h1 {
+  padding-top: 20px;
+}
+
+.txt-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+
+.txt-neutral {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(79, 72, 72);
+}
+
+.txt-neutral li {
+  margin-bottom: 10px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .packageDetail-container {
+    width: 220px !important;
+    margin-top: 55px !important;
+    padding-left: 0 !important;
+    border: 2px solid #e7e3e3 !important;
+  }
+
+  .accordion-packageDetail .heading {
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-left: 30px;
+    /* border: 1px solid; */
+  }
+
+  .accordion-header-packageDetail {
+    margin-left: 20px !important;
+  }
+
+  .txt-neutral {
+    width: 175px;
+    /* border: 1px solid; */
+  }
+
+  .txt-neutral li {
+    padding-top: 10px;
+  }
+}
+
+/* Responsive for Medium Phone*/
+@media screen and (max-width: 480px) {
+  .packageDetail-container {
+    border: 2px solid #e7e3e3;
+    width: 345px;
+    position: relative;
+    left: 0;
+    margin-top: 55px !important;
+    margin-left: 0;
+    padding-left: 25px;
+  }
+
+  .heading {
+    padding-bottom: 20px;
+  }
+
+  .accordion-item {
+    margin-bottom: 0;
+  }
+}
+
+/* Responsive for Large Phone*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .packageDetail-container {
+    position: relative;
+    left: 0;
+    width: 380px;
+    margin-top: 55px !important;
+    margin-right: 0;
+    margin-left: 0;
+    border: 2px solid #e7e3e3;
+  }
+
+  .heading {
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .txt-heading-packageDetail {
+    font-size: 15px !important;
+  }
+
+  .accordion-item {
+    margin-bottom: 0;
+  }
+
+  .accordion-body {
+    padding-bottom: 0 !important;
+  }
+
+  .txt-neutral {
+    font-size: 14px;
+    color: rgb(79, 72, 72);
+    padding-top: 5px;
+    /* border: 1px solid; */
+  }
+
+  .txt-neutral li {
+    padding-bottom: 15px;
+    /* border: 1px solid; */
+    width: 250px;
+  }
+}
+
+/* Responsive for Tablet  */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .packageDetail-container {
+    position: relative;
+    left: 0;
+    width: 500px;
+    margin-top: 55px !important;
+    margin-right: 0;
+    margin-left: 0;
+    border: 2px solid #e7e3e3;
+  }
+
+  .heading {
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .txt-heading-packageDetail {
+    font-size: 15px !important;
+  }
+
+  .accordion-item {
+    margin-bottom: 0;
+  }
+
+  .accordion-button span {
+    font-size: 20px;
+  }
+
+  .accordion-body {
+    padding-bottom: 0 !important;
+  }
+
+  .txt-neutral {
+    font-size: 14px;
+    color: rgb(79, 72, 72);
+    padding-top: 5px;
+    /* border: 1px solid; */
+  }
+
+  .txt-neutral li {
+    padding-bottom: 15px;
+    /* border: 1px solid; */
+    width: 320px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .packageDetail-container {
+    border: 1px solid #e7e3e3;
+    padding-left: 30px;
+    margin-left: 0;
+    margin-top: 100px;
+    width: 605px;
+    border-radius: 8px;
+    position: relative;
+    left: 0px;
+  }
+  .accordion {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .accordion-packageDetail .accordion-item {
+    border: none !important;
+  }
+
+  .accordion h1 {
+    padding-top: 20px;
+  }
+
+  .txt-heading {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .txt-neutral {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(79, 72, 72);
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .packageDetail-container {
+    border: 1px solid #e7e3e3;
+    padding-left: 30px;
+    margin-left: 0;
+    margin-top: 100px;
+    width: 605px;
+    border-radius: 8px;
+    position: relative;
+    left: 0px;
+  }
+  .accordion {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .accordion-packageDetail .accordion-item {
+    border: none !important;
+  }
+
+  .accordion h1 {
+    padding-top: 20px;
+  }
+
+  .txt-heading {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .txt-neutral {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(79, 72, 72);
+  }
+}

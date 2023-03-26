@@ -1,0 +1,330 @@
+.navbar-container {
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+  background-color: #f1f3ff !important;
+}
+
+.nav-brand {
+  /* position: relative; */
+  /* left: 100px; */
+  background: #0d28a6;
+  width: 110px;
+  height: 30px;
+  margin-left: 110px;
+  /* border: 1px solid; */
+}
+
+.navigationList {
+  gap: 12px;
+  padding-right: 120px;
+  /* border: 1px solid; */
+}
+
+.navigationList :hover {
+  color: #3e799b !important;
+}
+
+a.nav-link {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav-register {
+  background-color: #5cb85f;
+  border-radius: 2px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.nav-register span {
+  color: #fff;
+}
+
+.nav-logout {
+  background-color: #5cb85f;
+  border-radius: 2px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.nav-logout span {
+  color: #fff;
+}
+
+/* .off-canvas-container {
+  border: 1px solid;
+} */
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .navbar-container {
+    padding-top: 10px !important;
+    background-color: #f1f3ff !important;
+  }
+
+  .nav-brand {
+    /* position: relative; */
+    /* left: 100px; */
+    background: #0d28a6;
+    width: 110px;
+    height: 30px;
+    margin-left: 110px;
+    /* border: 1px solid; */
+  }
+
+  .navigationList {
+    gap: 5px !important;
+    padding-right: 0px;
+    /* border: 1px solid; */
+  }
+
+  .navigationList :hover {
+    color: #3e799b !important;
+  }
+
+  a.nav-link {
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    /* border: 1px solid; */
+  }
+
+  .nav-register {
+    background-color: #5cb85f;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .nav-register .register-nav {
+    font-size: 10px !important;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+
+  .nav-logout {
+    background-color: #5cb85f;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .nav-logout .logout-nav {
+    font-size: 10px !important;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .navbar-container {
+    padding-top: 30px !important;
+    padding-right: 10px !important;
+  }
+
+  .nav-brand {
+    background: #0d28a6;
+    width: 110px;
+    height: 30px;
+    margin-left: 10px;
+    /* border: 1px solid; */
+  }
+
+  .offcanvas {
+    max-width: 45% !important;
+  }
+
+  a.nav-link {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    padding: 0;
+  }
+
+  a.nav-link span {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+  }
+
+  .navigationList {
+    gap: 12px;
+    position: relative;
+    right: 0;
+    padding-right: 0px;
+  }
+
+  .nav-register {
+    margin-top: 10px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .nav-logout {
+    margin-top: 10px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar-container {
+    padding-top: 30px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-brand {
+    background: #0d28a6;
+    width: 110px;
+    height: 30px;
+    margin-left: 10px;
+    /* border: 1px solid; */
+  }
+
+  .offcanvas {
+    max-width: 45% !important;
+  }
+
+  .nav-brand {
+    position: relative;
+    left: 10px;
+  }
+
+  a.nav-link {
+    margin-left: 15px;
+    padding-top: 0;
+    font-size: 20px !important;
+  }
+
+  a.nav-link span {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+  }
+
+  .navigationList {
+    gap: 10px;
+    position: relative;
+    right: 0;
+    padding-right: 0px;
+  }
+
+  .nav-register {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 40px;
+    margin-right: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .nav-logout {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 40px;
+    margin-right: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .navbar-container {
+    padding-top: 30px !important;
+    padding-right: 20px !important;
+  }
+
+  .nav-brand {
+    background: #0d28a6;
+    width: 110px;
+    height: 30px;
+    margin-left: 10px;
+    /* border: 1px solid; */
+  }
+
+  .offcanvas {
+    max-width: 45% !important;
+  }
+
+  .nav-brand {
+    position: relative;
+    left: 10px;
+  }
+
+  a.nav-link {
+    margin-left: 25px;
+    padding-top: 0;
+    font-size: 20px !important;
+  }
+
+  a.nav-link span {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+  }
+
+  .navigationList {
+    gap: 10px;
+    position: relative;
+    right: 0;
+    padding-right: 0px;
+  }
+
+  .nav-register {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 40px;
+    margin-right: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .nav-logout {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 40px;
+    margin-right: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+/* Responsive for Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .navbar-container {
+    padding-top: 20px !important;
+    padding-right: 10px !important;
+    padding-left: 62px !important;
+  }
+
+  .nav-brand {
+    background: #0d28a6;
+    width: 110px;
+    height: 30px;
+    margin-left: 21px;
+    /* border: 1px solid; */
+  }
+
+  .nav-brand {
+    position: relative;
+    left: 0;
+  }
+}

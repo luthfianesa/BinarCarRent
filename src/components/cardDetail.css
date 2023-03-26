@@ -1,0 +1,421 @@
+.card-detail-outer-container {
+  /* padding-top: 102px; */
+  /* padding-left: 205px; */
+  /* border: 1px solid black; */
+}
+.card-detail-inner-container {
+  border: 1px solid rgb(235, 222, 222);
+  width: 333px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-container {
+  display: flex;
+  justify-content: center;
+  height: 187px;
+}
+
+.card-img-container img {
+  /* padding-top: 20px; */
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-heading-container {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.card-heading-container h1 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+
+.card-category-container {
+  display: flex;
+  padding-bottom: 30px;
+  /* border: 1px solid; */
+}
+
+.card-category-container img {
+  padding-left: 20px;
+  width: 32px;
+  /* border: 1px solid; */
+}
+
+.card-category-container h1 {
+  font-size: 12px;
+  font-weight: 300;
+  position: relative;
+  top: 7px;
+  left: 10px;
+  /* border: 1px solid; */
+}
+
+.date-picker {
+  padding-left: 20px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.date-picker h6 {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.date-picker .date {
+  width: 100%;
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.date-picker input.date {
+  font-size: 12px !important;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icon-calendar-cardDetail {
+  position: absolute;
+  bottom: 3px;
+  left: 265px;
+  padding-top: 0 !important;
+}
+
+.icon-calendar-cardDetail img {
+  width: 15px;
+  padding-bottom: 3px;
+}
+
+.react-datepicker__close-icon {
+  padding-right: 100px !important;
+}
+
+.card-billing-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  /* border: 1px solid; */
+}
+
+.card-billing-container h1 {
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 20px;
+  /* border: 1px solid; */
+}
+
+.btn-payment-cardDetail-on {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-payment-cardDetail-on button {
+  width: 100%;
+  padding: 7px 0 7px 0;
+  background-color: #5cb85f;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.btn-payment-cardDetail-off {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-payment-cardDetail-off button {
+  width: 100%;
+  padding: 7px 0 7px 0;
+  background-color: #35b0a733;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .card-detail-inner-container {
+    width: 220px;
+  }
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 170px !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* border: 1px solid; */
+  }
+  .card-heading-container {
+    padding-top: 30px;
+  }
+
+  .card-category-container {
+    padding-bottom: 35px;
+  }
+
+  .date-picker h6 {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .date-picker input.date {
+    font-size: 7px !important;
+  }
+
+  .icon-calendar-cardDetail {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+  }
+
+  .icon-calendar-cardDetail img {
+    width: 10px;
+  }
+
+  .react-datepicker__close-icon {
+    padding-top: 5px !important;
+    padding-right: 45px !important;
+    /* border: 1px solid !important; */
+  }
+
+  .react-datepicker__close-icon::after {
+    line-height: 0.7 !important;
+    width: 1px !important;
+    height: 1px !important;
+    /* border: 1px solid !important; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .card-detail-outer-container {
+    padding-top: 20px !important;
+    padding-left: 0;
+  }
+
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .card-img-container img {
+    /* padding-top: 20px; */
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .card-detail-outer-container {
+    padding-left: 0;
+    /* padding-right: 12px; */
+  }
+
+  .card-detail-inner-container {
+    width: 350px;
+  }
+
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .card-img-container img {
+    /* padding-top: 20px; */
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .date-picker h6 {
+    font-size: 10px !important;
+    font-weight: 300;
+  }
+
+  .date-picker input.date {
+    font-size: 12px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .icon-calendar-cardDetail {
+    position: absolute;
+    bottom: 4px;
+    left: 280px;
+    padding-top: 0 !important;
+  }
+
+  .react-datepicker__close-icon {
+    padding-right: 115px !important;
+    padding-bottom: 1px !important;
+  }
+
+  .card-billing-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .card-billing-container h1 {
+    font-size: 13px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .card-detail-outer-container {
+    padding-left: 6px;
+  }
+
+  .card-detail-inner-container {
+    width: 350px;
+  }
+
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .card-img-container img {
+    /* padding-top: 20px; */
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .icon-calendar-cardDetail {
+    position: absolute;
+    bottom: 3px;
+    left: 280px;
+    padding-top: 0 !important;
+  }
+
+  .react-datepicker__close-icon {
+    padding-right: 120px !important;
+    margin-top: 0 !important;
+  }
+
+  .card-heading-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+
+  .card-billing-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .card-billing-container h1 {
+    font-size: 14px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .card-detail-inner-container {
+    border: 1px solid rgb(246, 238, 238);
+    width: 333px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    /* margin-left: 50px */
+    position: relative;
+    right: 0;
+  }
+
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img-container img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card-heading-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+
+  .card-billing-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .card-billing-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .card-detail-inner-container {
+    border: 1px solid rgb(246, 238, 238);
+    width: 333px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    /* margin-left: 50px */
+    position: relative;
+    right: 0;
+  }
+
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img-container img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card-heading-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+
+  .card-billing-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .card-billing-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,600 @@
+.filterDetail-container {
+  border: 1px solid rgb(214, 204, 204);
+  width: 1047px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  position: relative;
+  bottom: 40px;
+  /* border: 1px solid; */
+}
+
+.chosenData {
+  position: absolute;
+  top: 47px;
+  padding-top: 10px;
+  padding-left: 15px;
+  width: 165px;
+  /* border: 1px solid; */
+}
+
+.chosenData h1 {
+  font-size: 14px;
+  color: #fff;
+  /* border: 1px solid; */
+}
+
+.chosenCarName h1 {
+  overflow-y: hidden;
+  height: 20px;
+  /* border: 1px solid; */
+}
+
+.filterDetail-icon {
+  width: 25px;
+  position: relative;
+  top: 50px;
+  left: 180px;
+  /* border: 1px solid; */
+}
+
+/* .filter-container .input {
+  padding-bottom: 12px;
+} */
+
+.filter-content-detail {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  position: relative;
+  bottom: 25px;
+}
+
+.filter-content-detail label {
+  font-size: 12px;
+  font-weight: 300;
+  color: #3c3c3c;
+  padding-bottom: 5px;
+}
+
+.filter-content-detail input {
+  width: 208px;
+  height: 36px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+  background-color: #d0d0d0;
+}
+
+.filter-content-detail ::-webkit-input-placeholder {
+  /* Edge */
+  color: #000;
+}
+
+.dropdown-detail {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  width: 208px;
+  height: 36px;
+  border: 1px solid rgb(195, 181, 181);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+  background-color: #d0d0d0;
+}
+
+.availability {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.button-gantiMobil {
+  padding-left: 12px;
+  position: relative;
+  bottom: 2px;
+  /* padding-bottom: 4px; */
+  /* border: 1px solid; */
+}
+
+.button-gantiMobil button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5cb85f;
+  width: 105px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .filterDetail-container {
+    width: 220px !important;
+  }
+
+  .filterDetail-icon {
+    position: relative;
+    top: 53px !important;
+    left: 150px !important;
+    /* border: 1px solid; */
+  }
+
+  .filter-content-detail {
+    padding-left: 10px !important;
+    /* border: 1px solid; */
+  }
+
+  .filter-content-detail input {
+    width: 180px;
+    height: 36px;
+  }
+
+  .chosenData h1 {
+    font-size: 12px !important;
+    width: 125px !important;
+    /* border: 1px solid; */
+  }
+
+  .button-gantiMobil {
+    padding-left: 12px;
+    position: relative;
+    bottom: 2px;
+    /* padding-bottom: 4px; */
+    /* border: 1px solid; */
+  }
+
+  .button-gantiMobil button {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 92px;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border: none;
+    border-radius: 2px;
+  }
+}
+
+/* Responsive for Medium Phone */
+
+@media screen and (max-width: 480px) {
+  .filterDetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 390px;
+    position: relative;
+    left: 0;
+    padding-top: 90px;
+  }
+
+  .input-2 {
+    position: relative;
+    bottom: 45px;
+  }
+
+  .input-3 {
+    position: relative;
+    bottom: 65px;
+  }
+
+  .input-4 {
+    position: relative;
+    bottom: 85px;
+  }
+
+  .chosenData {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 47px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 165px;
+  }
+
+  .chosenData h1 {
+    font-size: 14px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 50px;
+    left: 180px;
+    /* border: 1px solid; */
+    width: 25px;
+  }
+
+  .button-gantiMobil {
+    padding-left: 0;
+  }
+
+  .button-gantiMobil button {
+    padding: 10px;
+    width: 105px;
+    position: relative;
+    right: 5px;
+    bottom: 65px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .filterDetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 390px;
+    position: relative;
+    left: 0;
+    padding-top: 90px;
+  }
+
+  .input-2 {
+    position: relative;
+    bottom: 45px;
+  }
+
+  .input-3 {
+    position: relative;
+    bottom: 65px;
+  }
+
+  .input-4 {
+    position: relative;
+    bottom: 85px;
+  }
+
+  .chosenData {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 47px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 165px;
+  }
+
+  .chosenData h1 {
+    font-size: 14px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 50px;
+    left: 180px;
+    /* border: 1px solid; */
+    width: 25px;
+  }
+
+  .button-gantiMobil {
+    padding-left: 0;
+  }
+
+  .button-gantiMobil button {
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    right: 5px;
+    bottom: 65px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .filterDetail-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0;
+    bottom: 40px;
+  }
+
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+
+  .filter-content-detail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    /* padding-left: 10px; */
+  }
+
+  .chosenData {
+    /* overflow-x: hidden; */
+    width: 115px;
+    height: 36px;
+    position: absolute;
+    top: 48px;
+    padding-top: 10px;
+    padding-left: 15px;
+    /* border: 1px solid; */
+  }
+
+  .chosenData h1 {
+    overflow: hidden;
+    width: 98px;
+    height: 17px;
+    font-size: 14px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+
+  .filter-content-detail label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+
+  .chosenData h1 {
+    font-size: 12px;
+    color: #fff;
+    /* border: 1px solid; */
+  }
+  .filterDetail-icon {
+    position: relative;
+    top: 53px;
+    left: 115px;
+    /* border: 1px solid; */
+    width: 25px;
+  }
+
+  .filter-content-detail input {
+    width: 150px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .filter-content-detail ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .button-gantiMobil {
+    width: 635px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .button-gantiMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 3px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .filterDetail-container {
+    border: 1px solid rgb(214, 204, 204);
+    width: 950px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    position: relative;
+    left: 0;
+    bottom: 40px;
+    /* overflow-x: hidden; */
+  }
+
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+
+  .filter-content-detail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    position: relative;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    /* border: 1px solid; */
+  }
+
+  .filter-content-detail label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+
+  .filter-content-detail input {
+    width: 208px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .filter-content-detail ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+
+  .dropdown-detail {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 208px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+    /* border: 1px solid; */
+  }
+
+  .button-gantiMobil {
+    padding-left: 0;
+    padding-top: 0;
+    /* border: 1px solid; */
+    margin-bottom: 20px;
+  }
+
+  .button-gantiMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+}
+
+.car-categoryy {
+  border: 1px solid;
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .filterDetail-container {
+    position: relative;
+    left: 0;
+  }
+
+  .filter-container .input {
+    padding-bottom: 12px;
+  }
+
+  .filter-content-detail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+
+  .filter-content-detail label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding-bottom: 5px;
+  }
+
+  .filter-content-detail input {
+    width: 208px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .filter-content-detail ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+
+  .dropdown-detail {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    width: 208px;
+    height: 36px;
+    border: 1px solid rgb(195, 181, 181);
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+    background-color: #d0d0d0;
+  }
+
+  .availability {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .button-gantiMobil {
+    padding-left: 12px;
+    padding-top: 0;
+  }
+
+  .button-gantiMobil button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5cb85f;
+    width: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 2px;
+  }
+}
+
+.car-categoryy {
+  border: 1px solid;
+}

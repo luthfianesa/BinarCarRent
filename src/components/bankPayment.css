@@ -1,0 +1,387 @@
+.bankPayment-container {
+  width: 750px;
+  height: 345px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.heading-container-bankPayment {
+  margin-bottom: 20px;
+}
+
+.heading-container-bankPayment h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bankPayment-sub-heading-container {
+  margin-bottom: 50px;
+}
+
+.bankPayment-sub-heading-container h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bank-container {
+  display: flex;
+  margin-bottom: 5px;
+  /* border: 1px solid; */
+}
+
+.greenCheck-on {
+  position: relative;
+  left: 354px;
+  /* border: 1px solid; */
+}
+
+.greenCheck-off {
+  display: none;
+}
+
+.iconLine2-container {
+  margin-bottom: 5px;
+}
+
+.bank-name {
+  border: 1px solid #d0d0d0;
+  width: 60px;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bank-name h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.txt-bank-container {
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  width: 120px;
+  /* border: 1px solid; */
+}
+
+.txt-bank-container h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .bankPayment-container {
+    width: 240px !important;
+    height: 100% !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-container-bankPayment {
+    margin-bottom: 20px;
+    /* border: 1px solid; */
+  }
+
+  .heading-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .bankPayment-sub-heading-container {
+    width: 180px;
+    margin-bottom: 35px;
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .bankPayment-sub-heading-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .bank-container {
+    display: flex;
+    margin-bottom: 5px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-on {
+    position: relative;
+    left: 0 !important;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-off {
+    display: none;
+  }
+
+  .iconLine2-container {
+    margin-bottom: 5px;
+    /* border: 1px solid; */
+  }
+
+  .iconLine2-container img {
+    width: 179px !important;
+    /* border: 1px solid; */
+  }
+
+  .bank-name {
+    border: 1px solid #d0d0d0;
+    width: 60px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .bank-name h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .txt-bank-container {
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 100px;
+    /* border: 1px solid; */
+  }
+
+  .txt-bank-container h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .bankPayment-container {
+    width: 260px;
+    height: 365px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .heading-container {
+    margin-bottom: 20px;
+    /* border: 1px solid; */
+  }
+
+  .heading-container-bankPayment h1 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .bankPayment-sub-heading-container {
+    margin-bottom: 35px;
+  }
+
+  .bankPayment-sub-heading-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .bank-container {
+    display: flex;
+    margin-bottom: 5px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-on {
+    position: relative;
+    left: 19px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-off {
+    display: none;
+  }
+
+  .iconLine2-container {
+    margin-bottom: 5px;
+  }
+
+  .iconLine2-container img {
+    width: 200px;
+  }
+
+  .bank-name {
+    border: 1px solid #d0d0d0;
+    width: 60px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .bank-name h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .txt-bank-container {
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 100px;
+    /* border: 1px solid; */
+  }
+
+  .txt-bank-container h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .bankPayment-container {
+    width: 330px;
+    height: 365px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .heading-container-bankPayment {
+    margin-bottom: 20px;
+  }
+
+  .heading-container h1 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .bankPayment-sub-heading-container {
+    margin-bottom: 35px;
+    width: 250px;
+    /* border: 1px solid; */
+  }
+
+  .bankPayment-sub-heading-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .bank-container {
+    display: flex;
+    margin-bottom: 5px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-on {
+    position: relative;
+    left: 19px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-off {
+    display: none;
+  }
+
+  .iconLine2-container {
+    margin-bottom: 5px;
+  }
+
+  .iconLine2-container img {
+    width: 200px;
+  }
+
+  .bank-name {
+    border: 1px solid #d0d0d0;
+    width: 60px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .bank-name h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .txt-bank-container {
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 100px;
+    /* border: 1px solid; */
+  }
+
+  .txt-bank-container h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .bankPayment-container {
+    width: 330px;
+    height: 365px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    margin-right: 55px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .bankPayment-sub-heading-container {
+    width: 250px;
+    /* border: 1px solid; */
+  }
+
+  .txt-bank-container {
+    width: 105px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-on {
+    position: relative;
+    left: 4px;
+    /* border: 1px solid; */
+  }
+
+  .iconLine2-container img {
+    width: 190px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .bankPayment-container {
+    margin-bottom: 80px;
+    padding-left: 30px;
+  }
+
+  .txt-bank-container {
+    width: 105px;
+    /* border: 1px solid; */
+  }
+
+  .greenCheck-on {
+    position: relative;
+    left: 369px;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}

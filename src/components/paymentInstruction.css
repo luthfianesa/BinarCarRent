@@ -1,0 +1,211 @@
+.paymentInstruction-container {
+  width: 605px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.mainHeading-paymentInstruction h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.paymentMethod-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  /* border: 1px solid; */
+}
+
+.paymentMethod-container .bank-active {
+  border-bottom: 2px solid #5cb85f;
+  width: 135px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+
+.paymentMethod-container .bank-inactive {
+  border-bottom: 1px solid #becfbf;
+  width: 135px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+
+.instructions {
+  /* border: 1px solid; */
+  width: 430px;
+}
+
+.instructions ul li {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .paymentInstruction-container {
+    width: 240px !important;
+    margin-top: 10px !important;
+  }
+
+  .paymentMethod-container {
+    width: 239px !important;
+    /* border: 1px solid; */
+  }
+
+  .instructionsBottomContainer {
+    padding-left: 0 !important;
+    /* border: 1px solid; */
+  }
+
+  .instructions {
+    width: 220px !important;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .paymentInstruction-container {
+    width: 300px;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .mainHeading-paymentInstruction {
+    padding-left: 20px;
+  }
+
+  .paymentMethod-container {
+    width: 300px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+  }
+
+  .paymentMethod-container .bank-active {
+    border-bottom: 2px solid #5cb85f;
+    width: 105px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    /* border: 1px solid; */
+  }
+
+  .paymentMethod-container .bank-inactive {
+    border-bottom: 1px solid #becfbf;
+    width: 105px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    /* border: 1px solid; */
+  }
+
+  .instructionsBottomContainer {
+    padding-left: 7px;
+    /* border: 1px solid; */
+  }
+
+  .instructions {
+    width: 270px;
+    /* border: 1px solid; */
+  }
+
+  .instructions ul li {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .paymentInstruction-container {
+    width: 400px;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .mainHeading-paymentInstruction {
+    padding-left: 20px;
+  }
+
+  .paymentMethod-container {
+    width: 400px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+  }
+
+  .paymentMethod-container .bank-active {
+    border-bottom: 2px solid #5cb85f;
+    width: 105px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    /* border: 1px solid; */
+  }
+
+  .paymentMethod-container .bank-inactive {
+    border-bottom: 1px solid #becfbf;
+    width: 105px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    /* border: 1px solid; */
+  }
+
+  .instructions {
+    width: 380px;
+    /* border: 1px solid; */
+  }
+
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .paymentInstruction-container {
+    width: 505px;
+  }
+
+  .paymentMethod-outer-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+
+  .paymentMethod-container {
+    width: 400px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}

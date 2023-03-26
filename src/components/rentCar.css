@@ -1,0 +1,244 @@
+.sewaMobil-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sewaMobil-content-container {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  width: 1200px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.sewaMobil-content {
+  color: #ffffff;
+}
+
+.sewaMobil-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.sewaMobil-content p {
+  font-size: 14px;
+  font-weight: 700;
+  width: 468px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.sewaMobil-content button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  width: 140px;
+  height: 36px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .sewaMobil-container {
+    /* overflow-x: hidden !important; */
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content-container {
+    width: 220px !important;
+    padding-bottom: 320px;
+    /* margin-left: 10px; */
+    /* border: 1px solid ; */
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    width: 220px !important;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content p {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    width: 185px !important;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    width: 160px !important;
+    border: 1px;
+  }
+}
+
+/* Responsive for Medium Phone*/
+@media screen and (max-width: 480px) {
+  .sewaMobil-content-container {
+    width: 345px;
+    padding-bottom: 320px;
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 24px;
+    width: 250px;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content p {
+    width: 290px;
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px !important;
+    width: 150px !important;
+    padding-right: 5px;
+  }
+}
+
+/* Responsive for Large Phone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .sewaMobil-content-container {
+    width: 400px;
+    padding-bottom: 320px;
+    display: flex;
+  }
+
+  .sewaMobil-content {
+    text-align: center;
+  }
+
+  .sewaMobil-content h1 {
+    width: 250px;
+    font-size: 24px;
+    /* border: 1px solid; */
+  }
+
+  .sewaMobil-content p {
+    width: 250px;
+    font-size: 14px;
+  }
+}
+
+.sewaMobil-content button {
+  font-size: 14px;
+  width: 150px;
+  border-radius: 8px;
+  height: 45px;
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .sewaMobil-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .sewaMobil-content-container {
+    background-color: #0d28a6;
+    border-radius: 13px;
+    width: 645px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .sewaMobil-content {
+    color: #ffffff;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .sewaMobil-content p {
+    font-size: 14px;
+    font-weight: 700;
+    width: 468px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5cb85f;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .sewaMobil-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* width: 1320px; */
+  }
+
+  .sewaMobil-content-container {
+    background-color: #0d28a6;
+    border-radius: 13px;
+    width: 800px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .sewaMobil-content {
+    color: #ffffff;
+  }
+
+  .sewaMobil-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .sewaMobil-content p {
+    font-size: 14px;
+    font-weight: 700;
+    width: 468px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .sewaMobil-content button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5cb85f;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}

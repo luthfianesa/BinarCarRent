@@ -1,0 +1,51 @@
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .coverImage-container {
+    width: 100%;
+    margin-top: 25px;
+    /* display: none; */
+    /* border: 1px solid; */
+  }
+
+  .coverImage-container img {
+    width: 100%;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .coverImage-container {
+    width: 100%;
+    margin-top: 25px;
+    /* border: 1px solid; */
+  }
+
+  .coverImage-container img {
+    width: 100%;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .coverImage-container {
+    width: 100%;
+    margin-top: 25px;
+    /* border: 1px solid; */
+  }
+
+  .coverImage-container img {
+    width: 100%;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .coverImage-container {
+    width: 100%;
+    /* border: 1px solid; */
+  }
+
+  .coverImage-container img {
+    width: 100%;
+  }
+}

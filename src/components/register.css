@@ -1,0 +1,215 @@
+.register-container {
+  width: 799px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+.register-content-container {
+  width: 370px;
+  margin-top: 190px;
+  /* border: 1px solid; */
+}
+
+.register-rectangle {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.register-heading {
+  margin-bottom: 30px;
+}
+
+.register-heading h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.register-input-label h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.register-input input {
+  font-size: 12px;
+  font-weight: 400;
+  width: 370px;
+  /* border: 1px solid rgba(0,0,0,0,1); */
+  border: 1px solid rgb(212, 204, 204);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.register-btn-container {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.register-btn-container button {
+  width: 370px;
+  background-color: #0D28A6;
+  color: #FFF;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.direct-to-login h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.direct-to-login a {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  color: #0D28A6;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .register-container {
+    width: 220px !important;
+    /* border: 1px solid; */
+  }
+
+  .register-content-container {
+    width: 220px !important;
+  }
+  .register-input-label h6 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .register-input input {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .register-btn-container {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .register-input input {
+    width: 220px !important;
+  }
+  .register-btn-container button {
+    width: 220px !important;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .direct-to-login h6 {
+    font-size: 12px !important;
+    font-weight: 400;
+  }
+
+  .direct-to-login a {
+    font-size: 12px !important;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #0d28a6;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .register-container {
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .register-content-container {
+    width: 300px;
+    margin-top: 80px;
+    /* border: 1px solid; */
+  }
+
+  .register-heading h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .register-input input {
+    width: 300px;
+  }
+  .register-btn-container button {
+    width: 300px;
+  }
+
+  .direct-to-register {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .register-container {
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .register-content-container {
+    width: 300px;
+    margin-top: 80px;
+    /* border: 1px solid; */
+  }
+
+  .register-heading h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .register-input input {
+    width: 300px;
+  }
+  .register-btn-container button {
+    width: 300px;
+  }
+
+  .direct-to-register {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .register-container {
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .register-content-container {
+    width: 300px;
+    margin-top: 80px;
+    /* border: 1px solid; */
+  }
+
+  .register-heading h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .register-input input {
+    width: 300px;
+  }
+  .register-btn-container button {
+    width: 300px;
+  }
+
+  .direct-to-register {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+  }
+}

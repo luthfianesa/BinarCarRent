@@ -1,0 +1,633 @@
+.PaymentReceipt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption-PaymentReceipt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainHeading-PaymentReceipt h1 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.subHeading-PaymentReceipt h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.download-PaymentReceipt-container {
+  width: 605px;
+  margin-top: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+  border: 1px solid rgb(232, 223, 223);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.first-row-download-PaymentReceipt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-PaymentReceipt h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.subHeading-PaymentReceipt h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-download-PaymentReceipt {
+  display: flex;
+  justify-content: center;
+  width: 605px;
+  margin-top: 20px;
+  /* border: 1px solid; */
+}
+
+.btn-download-PaymentReceipt button {
+  background-color: #fff;
+  border: none;
+}
+
+.second-row-download-PaymentReceipt {
+  width: 557px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border: 1px dashed #d0d0d0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.PaymentReceipt-preview {
+  display: flex;
+  justify-content: center;
+}
+.icon-image-preview {
+  /* border: 1px solid; */
+  margin-right: 15px;
+}
+
+.txt-preview {
+  /* border: 1px solid; */
+  padding-top: 5px;
+}
+
+.txt-preview h6 {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.beautiful-PaymentReceipt {
+  width: 605px;
+  margin-top: 40px;
+  border: 1px solid #d0d0d0;
+}
+
+.roundedRectangle-inner-container {
+  width: 150px;
+  height: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 20px;
+  border: 1px solid #d0d0d0;
+}
+
+.header-container-PaymentReceipt {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.first-heading-PaymentReceipt {
+  margin-left: 50px;
+  /* border: 1px solid; */
+}
+
+.first-heading-PaymentReceipt h1 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.logo-container-PaymentReceipt {
+  margin-right: 50px;
+  width: 180px;
+  /* border: 1px solid; */
+}
+
+.logo-container-PaymentReceipt img {
+  width: 100%;
+  height: 100%;
+}
+
+.order-id-and-address-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* border: 1px solid; */
+}
+
+.order-id-PaymentReceipt-container {
+  margin-left: 50px;
+  /* border: 1px solid; */
+}
+
+.order-id-PaymentReceipt-container h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.address-PaymentReceipt-container {
+  margin-right: 50px;
+  /* border: 1px solid; */
+}
+
+.address-PaymentReceipt {
+  font-size: 16px;
+  text-align: right;
+  width: 200px;
+}
+
+.detail-order-container-PaymentReceipt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.left-content-PaymentReceipt {
+  margin-left: 50px;
+}
+
+.right-content-PaymentReceipt {
+  margin-right: 50px;
+  text-align: right;
+}
+
+.detail-order-container-PaymentReceipt h3 {
+  font-size: 16px;
+}
+
+.selected-car {
+  text-transform: capitalize;
+}
+
+.total-PaymentReceipt {
+  font-size: 17px !important;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.footer-PaymentReceipt {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.line-PaymentReceipt-container {
+  display: flex;
+  justify-content: center;
+}
+
+.line-PaymentReceipt {
+  width: 500px;
+  border: 1px solid;
+}
+
+.paymentProof-PaymentReceipt {
+  width: 605px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d0d0d0;
+}
+
+.paymentProof-PaymentReceipt h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.paymentProof-PaymentReceipt img {
+  width: 80%;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .beautiful-PaymentReceipt {
+    width: 240px !important;
+  }
+
+  .header-container-PaymentReceipt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .roundedRectangle-inner-container {
+    width: 100px;
+    height: 25px;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-bottom: 10px;
+  }
+
+  .first-heading-PaymentReceipt h1 {
+    font-size: 25px;
+  }
+
+  .order-id-PaymentReceipt-container h3 {
+    font-size: 15px;
+  }
+
+  .address-PaymentReceipt {
+    font-size: 12px;
+  }
+
+  .subHeading-PaymentReceipt {
+    width: 200px !important;
+    /* border: 1px solid; */
+  }
+
+  .subHeading-PaymentReceipt h6 {
+    text-align: center;
+  }
+
+  .btn-download-PaymentReceipt {
+    display: none;
+  }
+
+  .line-PaymentReceipt {
+    width: 200px !important;
+    border: 1px solid;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .logo-container-PaymentReceipt {
+    margin-right: 0;
+    width: 180px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-and-address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-PaymentReceipt-container {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt-container {
+    margin-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt {
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt {
+    margin-left: 0;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt h3 {
+    font-size: 9px !important;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt .total-PaymentReceipt {
+    font-size: 12px !important;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+
+  .right-content-PaymentReceipt {
+    margin-right: 0;
+    padding-right: 20px;
+    text-align: right;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt h3 {
+    font-size: 9px !important;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt .total-PaymentReceipt {
+    font-size: 12px !important;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+
+  .paymentProof-PaymentReceipt {
+    width: 240px !important;
+  }
+  
+  .paymentProof-PaymentReceipt h1 {
+    font-size: 17px !important;
+  }
+  
+  .paymentProof-PaymentReceipt img {
+    width: 80%;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .beautiful-PaymentReceipt {
+    width: 359px;
+  }
+
+  .header-container-PaymentReceipt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .roundedRectangle-inner-container {
+    width: 100px;
+    height: 25px;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-bottom: 10px;
+  }
+
+  .first-heading-PaymentReceipt h1 {
+    font-size: 25px;
+  }
+
+  .order-id-PaymentReceipt-container h3 {
+    font-size: 15px;
+  }
+
+  .address-PaymentReceipt {
+    font-size: 12px;
+  }
+
+  .subHeading-PaymentReceipt {
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .subHeading-PaymentReceipt h6 {
+    text-align: center;
+  }
+
+  .btn-download-PaymentReceipt {
+    display: none;
+    width: 100%;
+  }
+
+  .line-PaymentReceipt {
+    width: 319px;
+    border: 1px solid;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .logo-container-PaymentReceipt {
+    margin-right: 0;
+    width: 180px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-and-address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-PaymentReceipt-container {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt-container {
+    margin-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt {
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt {
+    margin-left: 0;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt h3 {
+    font-size: 11px;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt {
+    margin-right: 0;
+    padding-right: 20px;
+    text-align: right;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt h3 {
+    font-size: 11px;
+    /* border: 1px solid; */
+  }
+
+  .total-PaymentReceipt {
+    font-size: 13px !important;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+
+  .paymentProof-PaymentReceipt {
+    width: 359px;
+  }
+  
+  .paymentProof-PaymentReceipt h1 {
+    font-size: 25px;
+  }
+  
+  .paymentProof-PaymentReceipt img {
+    width: 80%;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .beautiful-PaymentReceipt {
+    width: 481px;
+  }
+
+  .header-container-PaymentReceipt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .roundedRectangle-inner-container {
+    width: 100px;
+    height: 25px;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-bottom: 10px;
+  }
+
+  .first-heading-PaymentReceipt h1 {
+    font-size: 25px;
+  }
+
+  .order-id-PaymentReceipt-container h3 {
+    font-size: 15px;
+  }
+
+  .address-PaymentReceipt {
+    font-size: 12px;
+  }
+
+  .subHeading-PaymentReceipt {
+    width: 400px;
+    /* border: 1px solid; */
+  }
+
+  .subHeading-PaymentReceipt h6 {
+    text-align: center;
+  }
+
+  .btn-download-PaymentReceipt {
+    display: none;
+    width: 100%;
+  }
+
+  .line-PaymentReceipt {
+    width: 439px;
+    border: 1px solid;
+  }
+
+  .first-heading-PaymentReceipt {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .logo-container-PaymentReceipt {
+    margin-right: 0;
+    width: 180px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-and-address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 1px solid; */
+  }
+
+  .order-id-PaymentReceipt-container {
+    margin-left: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt-container {
+    margin-right: 0;
+    /* border: 1px solid; */
+  }
+
+  .address-PaymentReceipt {
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt {
+    margin-left: 0;
+    padding-left: 20px;
+    /* border: 1px solid; */
+  }
+
+  .left-content-PaymentReceipt h3 {
+    font-size: 11px;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt {
+    margin-right: 0;
+    padding-right: 20px;
+    text-align: right;
+    /* border: 1px solid; */
+  }
+
+  .right-content-PaymentReceipt h3 {
+    font-size: 11px;
+    /* border: 1px solid; */
+  }
+
+  .total-PaymentReceipt {
+    font-size: 13px !important;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+
+  .paymentProof-PaymentReceipt {
+    width: 481px;
+  }
+  
+  .paymentProof-PaymentReceipt h1 {
+    font-size: 25px ;
+  }
+  
+  .paymentProof-PaymentReceipt img {
+    width: 80%;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+}

@@ -1,0 +1,113 @@
+.payBefore-inner-container {
+  display: flex;
+  justify-content: space-between;
+  width: 605px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.payBefore-heading h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.payBefore-subHeading h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.deadline-container {
+  display: flex;
+  /* border: 1px solid; */
+}
+
+.deadline-hour {
+  width: 21px;
+  height: 26px;
+  border: 1px solid;
+}
+
+.deadline-minute {
+  width: 21px;
+  height: 26px;
+  border: 1px solid;
+}
+
+.deadline-second {
+  width: 21px;
+  height: 26px;
+  border: 1px solid;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .payBefore-inner-container {
+    width: 240px !important;
+    background-color: #fff;
+  }
+
+  .payBefore-heading h1 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .payBefore-subHeading h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .deadline-container {
+    display: flex;
+    /* border: 1px solid; */
+  }
+
+  .deadline-hour {
+    width: 21px;
+    height: 26px;
+    border: 1px solid;
+  }
+
+  .deadline-minute {
+    width: 21px;
+    height: 26px;
+    border: 1px solid;
+  }
+
+  .deadline-second {
+    width: 21px;
+    height: 26px;
+    border: 1px solid;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .payBefore-inner-container {
+    width: 300px;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .payBefore-inner-container {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .payBefore-inner-container {
+    background-color: #FFF;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .payBefore-inner-container {
+    background-color: #FFF;
+  }
+}

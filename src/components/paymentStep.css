@@ -1,0 +1,347 @@
+/* Payment Step 1 */
+.paymentStep-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 120px;
+  /* border: 1px solid; */
+}
+
+.paymentStepContent-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.paymentStep-left-content {
+  display: flex;
+}
+
+.paymentStep-right-content {
+  display: flex;
+  position: relative;
+  right: 80px;
+}
+
+.back-icon button {
+  border: none;
+  background-color: #f1f3ff;
+}
+
+.txt-pembayaran h1 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.txt-paymentStep h3 {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.icon-number {
+  padding-left: 7px;
+}
+
+.icon-line {
+  padding-left: 7px;
+  padding-top: 1px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .paymentStep-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 460px !important;
+    /* border: 1px solid; */
+  }
+
+  .paymentStepContent-container {
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px;
+    /* border: 1px solid; */
+  }
+
+  .paymentStep-left-content {
+    display: flex;
+  }
+
+  .paymentStep-right-content {
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 165px;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid; */
+  }
+
+  .back-icon button {
+    border: none;
+    background-color: #f1f3ff;
+  }
+
+  .txt-pembayaran h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+
+  .txt-paymentStep h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .icon-number {
+    padding-left: 7px;
+  }
+
+  .icon-line {
+    padding-left: 7px;
+    padding-top: 1px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .paymentStep-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+    /* border: 1px solid; */
+  }
+
+  .paymentStepContent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px;
+    /* border: 1px solid; */
+  }
+
+  .paymentStep-left-content {
+    display: flex;
+  }
+
+  .paymentStep-right-content {
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+
+  .back-icon button {
+    border: none;
+    background-color: #f1f3ff;
+  }
+
+  .txt-pembayaran h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+
+  .txt-paymentStep h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .icon-number {
+    padding-left: 7px;
+  }
+
+  .icon-line {
+    padding-left: 7px;
+    padding-top: 1px;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .paymentStep-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+    /* border: 1px solid; */
+  }
+
+  .paymentStepContent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+    /* border: 1px solid; */
+  }
+
+  .paymentStep-left-content {
+    display: flex;
+  }
+
+  .paymentStep-right-content {
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+
+  .back-icon button {
+    border: none;
+    background-color: #f1f3ff;
+  }
+
+  .txt-pembayaran h1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+
+  .txt-paymentStep h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .icon-number {
+    padding-left: 7px;
+  }
+
+  .icon-line {
+    padding-left: 7px;
+    padding-top: 1px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .paymentStepContent-container {
+    width: 725px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .paymentStepContent-container {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .paymentStepContent-container {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+  }
+}
+
+/* Payment Step 2 */
+.orderId h6 {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .checklist-icon {
+    padding-left: 7px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .checklist-icon {
+    padding-left: 7px;
+  }
+}
+
+/* Payment Step 3 */
+
+.paymentStep3-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 60px;
+  /* left: 9px; */
+  /* border: 1px solid; */
+}
+
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .paymentStep3-container {
+    position: relative;
+    left: 0;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .paymentStep3-container {
+    position: relative;
+    left: 0;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .paymentStep3-container {
+    position: relative;
+    left: 0;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .paymentStep3-container {
+    position: relative;
+    left: 0;
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .paymentStep3-container {
+    position: relative;
+    left: 0;
+  }
+}

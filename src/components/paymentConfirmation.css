@@ -1,0 +1,396 @@
+.paymentConfirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 505px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* position: absolute; */
+}
+
+.txt-paymentConfirmation h1 {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  /* border: 1px solid; */
+}
+
+.btn-paymentConfirmation button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5cb85f;
+  border: none;
+  border-radius: 2px;
+  width: 440px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.uploadPaymentProofDeadline-container {
+  display: flex;
+  justify-content: space-between;
+  width: 505px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* border: 1px solid; */
+}
+
+.firstHeading-uploadPaymentProofDeadline h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.firstP-uploadPaymentProofDeadline {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* border: 1px solid; */
+}
+
+.firstP-uploadPaymentProofDeadline p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  /* border: 1px solid; */
+}
+
+.secondHeading-uploadPaymentProofDeadline {
+  width: 505px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* border: 1px solid; */
+}
+
+.secondHeading-uploadPaymentProofDeadline h1 {
+  font-size: 14px;
+  font-weight: 700;
+  /* border: 1px solid; */
+}
+
+.secondP-uploadPaymentProofDeadline {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* border: 1px solid; */
+}
+
+.secondP-uploadPaymentProofDeadline p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Dropzone */
+.dropzone-outer-container {
+  margin-top: 20px;
+  width: 505px;
+  /* border: 1px solid; */
+}
+
+.dropzone-inner-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dropzone-upload-container {
+  width: 300px;
+  text-align: center;
+  /* border: 1px solid; */
+}
+
+.select-image-dropzone {
+  /* border: 1px solid; */
+}
+
+.select-image-dropzone button {
+  width: 180px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid rgb(246, 238, 238) !important;
+  border-radius: 4px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-upload-paymentConfirmation {
+  cursor: pointer;
+}
+
+.btn-upload-paymentConfirmation button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5cb85f !important;
+  border: none;
+  border-radius: 2px;
+  width: 440px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+aside {
+  position: absolute;
+  bottom: 63px;
+  right: 91px;
+  width: 300px !important;
+  height: 163px;
+  border-radius: 4x;
+  /* border: 1px solid; */
+}
+
+aside img {
+  width: 300px !important;
+  height: 163px !important;
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .paymentConfirmation-container {
+    width: 240px !important;
+    margin-top: 50px !important;
+    /* margin-bottom: 80px; */
+    background-color: #fff;
+  }
+
+  .payment-unconfirmed-container {
+    width: 240px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .txt-paymentConfirmation {
+    width: 200px;
+    /* border: 1px solid; */
+  }
+
+  .payment-unconfirmed-container button {
+    width: 210px !important;
+    /* border-radius: 5px; */
+  }
+
+  .payment-confirmed-container {
+    width: 240px !important;
+    /* border: 1px solid; */
+  }
+
+  .payment-confirmed-container .uploadPaymentProofDeadline-container {
+    width: 240px;
+    /* border: 1px solid; */
+  }
+
+  .payment-confirmed-container .secondHeading-uploadPaymentProofDeadline {
+    width: 240px;
+    /* border: 1px solid; */
+  }
+
+  .payment-confirmed-container aside {
+    position: absolute;
+    bottom: 62px;
+    right: 0 !important;
+    width: 218px !important;
+    border-radius: 4x;
+    /* border: 1px solid; */
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .paymentConfirmation-container {
+    width: 300px;
+    margin-top: 40px;
+    /* margin-bottom: 80px; */
+  }
+
+  .payment-unconfirmed-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .txt-paymentConfirmation {
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .payment-unconfirmed-container button {
+    width: 220px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .payment-confirmed-container {
+    width: 300px;
+  }
+
+  .uploadPaymentProofDeadline-container {
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 1px solid; */
+  }
+
+  .firstP-uploadPaymentProofDeadline {
+    margin-bottom: 30px;
+  }
+
+  .secondHeading-uploadPaymentProofDeadline {
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .dropzone-outer-container {
+    margin-top: 20px;
+    width: 300px;
+    /* border: 1px solid; */
+  }
+
+  .dropzone-inner-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid; */
+  }
+
+  .dropzone-upload-container {
+    width: 220px;
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .dropzone-upload-container img {
+    width: 220px;
+  }
+
+  .select-image-dropzone {
+    /* border: 1px solid; */
+  }
+
+  .select-image-dropzone button {
+    width: 180px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid rgb(246, 238, 238) !important;
+    border-radius: 4px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  aside {
+    position: absolute;
+    bottom: 63px;
+    right: 28.5px;
+    width: 220px !important;
+    height: 121px;
+    border-radius: 4x;
+    /* border: 1px solid; */
+  }
+
+  aside img {
+    border: none !important;
+    width: 219px !important;
+    height: 120px !important;
+  }
+
+  .btn-upload-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-upload-paymentConfirmation button {
+    width: 220px;
+    margin-left: 0;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .paymentConfirmation-container {
+    width: 400px;
+    margin-top: 40px;
+    /* border: 1px solid; */
+  }
+  .payment-unconfirmed-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .txt-paymentConfirmation {
+    width: 350px;
+    text-align: center;
+    /* border: 1px solid; */
+  }
+
+  .payment-unconfirmed-container button {
+    width: 310px;
+  }
+
+  .payment-confirmed-container {
+    width: 400px;
+  }
+
+  .uploadPaymentProofDeadline-container {
+    width: 400px;
+    /* border: 1px solid; */
+  }
+
+  .secondHeading-uploadPaymentProofDeadline {
+    width: 400px;
+    /* border: 1px solid; */
+  }
+
+  .payment-confirmed-container aside {
+    position: absolute;
+    bottom: 62px;
+    right: 39px !important;
+    width: 297px !important;
+    border-radius: 4x;
+    /* border: 1px solid; */
+  }
+
+  aside img {
+    width: 296px !important;
+    height: 163px !important;
+    /* border: 1px solid; */
+  }
+
+  .btn-upload-paymentConfirmation {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-upload-paymentConfirmation button {
+    width: 300px;
+    margin-left: 0;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .paymentConfirmation-container {
+    margin-top: 40px;
+  }
+}
+
+/* Responsive for Small Laptop and Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .paymentConfirmation-container {
+    margin-top: 40px;
+  }
+}
