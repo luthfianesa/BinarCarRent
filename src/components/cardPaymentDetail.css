@@ -466,6 +466,10 @@
     flex-direction: column;
   }
 
+  .cardPaymentDetail-sewaMobil-ul {
+    padding-left: 20px;
+  }
+
   .second-subHeading {
     width: 210px;
     /* border: 1px solid; */

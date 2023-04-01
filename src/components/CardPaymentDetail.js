@@ -112,7 +112,7 @@ const CardPaymentDetail = () => {
             </div>
             <div className="rentDays-container">
               <div className="cardPaymentDetail-subHeading second-subHeading">
-                <ul>
+                <ul className="cardPaymentDetail-sewaMobil-ul">
                   <li>
                     Sewa Mobil Rp {Intl.NumberFormat("id-ID").format(car.price)}
                     {(() => {
