@@ -476,9 +476,19 @@
     margin-left: 2px;
   }
 
+  .firstInclude {
+    padding-top: 2px;
+    /* border: 1px solid; */
+  }
+
   .firstInclude h6 {
     font-size: 14px;
     font-weight: 400;
+    /* border: 1px solid; */
+  }
+
+  .secondInclude {
+    padding-top: 2px;
   }
 
   .secondInclude h6 {
@@ -486,9 +496,15 @@
     font-weight: 400;
   }
 
+  .cardPayment-ul {
+    padding-left: 40px;
+    /* border: 1px solid; */
+  }
+
   .cardPayment-ul li {
     font-size: 14px;
     font-weight: 400;
+    /* border: 1px solid; */
   }
 
   .lineIcon-container img {
