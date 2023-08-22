@@ -1,0 +1,158 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.admin-navbar-leftSide {
+  display: flex;
+}
+
+.admin-navbar-square-outer {
+  background-color: #0d28a6;
+}
+
+.admin-navbar-square-inner {
+  width: 30px;
+  height: 30px;
+  background-color: #cfd4ed;
+  margin: 15px;
+}
+
+.admin-navbar-rectangle {
+  background-color: #cfd4ed;
+  width: 100px;
+  height: 30px;
+  margin: 15px;
+  margin-left: 20px;
+}
+
+.admin-navbar-rightSide {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 50px;
+}
+
+.admin-navbar-input {
+  position: relative;
+}
+
+.admin-navbar-input input {
+  width: 180px;
+  padding-left: 35px;
+}
+
+.admin-navbar-input img {
+  position: absolute;
+  z-index: 1;
+  top: 6px;
+  left: 10px;
+}
+
+.admin-navbar-button button {
+  color: #0d28a6;
+  background-color: #fff;
+  font-weight: 600;
+  width: 70px;
+  height: 30px;
+  border-radius: 2px;
+  border: 2px solid #0d28a6;
+}
+
+.admin-navbar-userInitialName {
+  background-color: #cfd4ed;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 5px;
+  padding-top: 5px;
+  border-radius: 50%;
+}
+
+.admin-navbar-userInitialName h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.admin-navbar-userName {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.admin-navbar-userName h4 {
+  font-size: 16px;
+}
+
+.admin-sidebar {
+  width: 250px;
+  height: 500px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.admin-blueSide {
+  background-color: #0d28a6;
+  width: 62px;
+}
+
+.admin-blueSide-dashboard {
+  background: rgba(255, 255, 255, 0.30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.admin-blueSide-dashboard h5 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.admin-blueSide-cars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.admin-blueSide-cars h5 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.admin-whiteSide {
+  width: 195px;
+}
+
+.admin-whiteSide h4:nth-child(1) {
+  color: #8A8A8A;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.admin-whiteSide h4:nth-child(2) {
+  background-color: #CFD4ED;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}

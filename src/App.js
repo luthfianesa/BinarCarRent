@@ -9,6 +9,7 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import ETicketPage from "./pages/ETicketPage";
 import LoginAdminPage from "./pages/admin/LoginAdminPage";
+import DashboardAdminPage from "./pages/admin/DashboardAdminPage";
 
 const App = () => {
   function ProjectTitle() {
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="payment2/:id/" element={<PaymentPage2 />} />
         <Route path="/e-ticket/:id/" element={<ETicketPage />} />
         <Route path="/login-admin" element={<LoginAdminPage />} />
+        <Route path="/admin-dashboard" element={<DashboardAdminPage/>} />
       </Routes>
     </div>
   );
