@@ -19,9 +19,11 @@ const OrderDetail = () => {
       },
     };
 
-    // Get Chosen car from Search Page by id
+    // Old version API Link
+    // https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
+
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         setCar(res.data.Car);
       })
@@ -48,11 +50,11 @@ const OrderDetail = () => {
           </div>
           <div className="sub-heading-container sub-heading-2">
             {(() => {
-              if (car.category === "small") {
+              if (car.category === "small" || car.category === "Small") {
                 return <h3>Kecil</h3>;
-              } else if (car.category === "Medium") {
+              } else if (car.category === "medium" || car.category === "Medium") {
                 return <h3>Sedang </h3>;
-              } else if (car.category === "large") {
+              } else if (car.category === "large" || car.category === "Large") {
                 return <h3>Besar</h3>;
               } else {
                 return <h3> - </h3>;

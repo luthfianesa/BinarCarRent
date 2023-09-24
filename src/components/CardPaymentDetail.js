@@ -25,7 +25,7 @@ const CardPaymentDetail = () => {
   const rentDuration = endDateOnly - startDateOnly + 1;
   const navigate = useNavigate();
   const state = useSelector((rootReducer) => rootReducer);
-  console.log("ini state CardPayment", state);
+  // console.log("ini state CardPayment", state);
 
   useEffect(() => {
     localStorage.removeItem("deadlineToPay");
@@ -35,8 +35,10 @@ const CardPaymentDetail = () => {
       },
     };
 
+// Old version API Link
+// https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         // console.log(res.data);
         setCar(res.data.Car);
@@ -56,11 +58,13 @@ const CardPaymentDetail = () => {
 
     // Get car data by id
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         // console.log(res);
         setCar(res.data.Car);
         setTotalPrice(res.data.total_price);
+        // res.data.id = orderId
+        // console.log(res.data.id);
         navigate(`/payment2/${res.data.id}/`);
       })
       .catch((err) => console.log(err.message));
