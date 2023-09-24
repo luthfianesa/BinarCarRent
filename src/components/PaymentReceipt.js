@@ -8,6 +8,7 @@ import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 // import { useEffect, useState } from "react";
 
+// All Data in Payment Receipt Received from Local Storage
 const PaymentReceipt = () => {
   const startDate = moment(localStorage.getItem("startDate"));
   const endDate = moment(localStorage.getItem("endDate"));

@@ -2,10 +2,10 @@ import "../components/paymentStep.css";
 import BackIcon from "../assets/fi_arrow-left.png";
 import CheckIcon from "../assets/fi_check.png";
 import LineIcon from "../assets/icon_line.png";
-import Number3BlueIcon from "../assets/icon_number-3-blue.png"
+import Number3BlueIcon from "../assets/icon_number-3-blue.png";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom";
 
 const PaymentStep3 = () => {
   const { id } = useParams();
@@ -24,15 +24,16 @@ const PaymentStep3 = () => {
       },
     };
 
+    // Old version API Link
+    // https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         console.log(res);
         setOrderId(res.data.id);
       })
       .catch((err) => console.log(err.message));
   }, []);
-
 
   return (
     <div className="paymentStep3-container">
