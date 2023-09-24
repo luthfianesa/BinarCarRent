@@ -16,13 +16,23 @@ const SearchCarPage = () => {
   const [fMaxPrice, setFMaxPrice] = useState("");
   const [fStatus, setFStatus] = useState("");
   // const [carPrice, setCarPrice] = useState(0);
-  console.log('ini min price', fMinPrice);
-  console.log('ini max price', fMaxPrice);
+  console.log("ini min price", fMinPrice);
+  console.log("ini max price", fMaxPrice);
 
-  // Fungsi Handle Filter
+  // Handle Car Filter old version
+  // const handleFilter = (e) => {
+  // axios
+  // .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car?name=${fName}&category=${fCategory}&minPrice=${fMinPrice}&maxPrice=${fMaxPrice}&isRented=${fStatus}`)
+  // .then((res) => {
+  // setCarData(res.data.cars);
+  // console.log(res);
+  // })
+  // .catch((err) => console.log(err.message));
+  // };
+  
   const handleFilter = (e) => {
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car?name=${fName}&category=${fCategory}&minPrice=${fMinPrice}&maxPrice=${fMaxPrice}&isRented=${fStatus}`)
+      .get(`https://api-car-rental.binaracademy.org/customer/v2/car?name=${fName}&category=${fCategory}&minPrice=${fMinPrice}&maxPrice=${fMaxPrice}&isRented=${fStatus}`)
       .then((res) => {
         setCarData(res.data.cars);
         console.log(res);
@@ -30,9 +40,20 @@ const SearchCarPage = () => {
       .catch((err) => console.log(err.message));
   };
 
+  // Show All Car Old Version
+  // useEffect(() => {
+  //   axios
+  //     .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car`)
+  //     .then((res) => {
+  //       setCarData(res.data.cars);
+  //       // console.log(res.data.cars);
+  //     })
+  //     .catch((err) => console.log(err.message));
+  // }, []);
+
   useEffect(() => {
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car`)
+      .get(`https://api-car-rental.binaracademy.org/customer/v2/car`)
       .then((res) => {
         setCarData(res.data.cars);
         // console.log(res.data.cars);

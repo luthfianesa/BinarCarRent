@@ -1031,3 +1031,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Dashboard Admin Page */
+.dashboardAdminPage-container {
+  background: #F4F5F7;
+  /* display: flex; */
+}
+
+.sidebarAndGraph-container {
+  display: flex;
+}
