@@ -12,9 +12,21 @@ const FilterDetail = () => {
   const { id } = useParams();
   const [car, setCar] = useState([]);
 
+  // Get Chosen Car (old version)
+  // useEffect(() => {
+  //   axios
+  //     .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
+  //     .then((res) => {
+  //       // console.log(res);
+  //       setCar(res.data);
+  //       // console.log(res.data);
+  //     })
+  //     .catch((err) => console.log(err.message));
+  // }, []);
+
   useEffect(() => {
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
+      .get(`https://api-car-rental.binaracademy.org/customer/car/${id}`)
       .then((res) => {
         // console.log(res);
         setCar(res.data);

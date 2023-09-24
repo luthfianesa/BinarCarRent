@@ -92,10 +92,20 @@ const CardDetail = () => {
     }
   };
 
-  // Get Chosen car from Search Page by id
+  // Get Chosen Car from Search Page By Id (Old Version)
+  // useEffect(() => {
+  //   axios
+  //     .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
+  //     .then((res) => {
+  //       console.log("This is customer car", res);
+  //       setCar(res.data);
+  //       setCarName(res.data.name);
+  //     })
+  //     .catch((err) => console.log(err.message));
+  // }, []);
   useEffect(() => {
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/car/${id}`)
+      .get(`https://api-car-rental.binaracademy.org/customer/car/${id}`)
       .then((res) => {
         console.log("This is customer car", res);
         setCar(res.data);

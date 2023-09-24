@@ -19,7 +19,7 @@ const SearchCarPage = () => {
   console.log("ini min price", fMinPrice);
   console.log("ini max price", fMaxPrice);
 
-  // Handle Car Filter old version
+  // Handle Car Filter (old version)
   // const handleFilter = (e) => {
   // axios
   // .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car?name=${fName}&category=${fCategory}&minPrice=${fMinPrice}&maxPrice=${fMaxPrice}&isRented=${fStatus}`)
@@ -40,7 +40,7 @@ const SearchCarPage = () => {
       .catch((err) => console.log(err.message));
   };
 
-  // Show All Car Old Version
+  // Get All Car (old version)
   // useEffect(() => {
   //   axios
   //     .get(`https://bootcamp-rent-cars.herokuapp.com/customer/v2/car`)
