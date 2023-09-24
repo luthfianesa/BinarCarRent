@@ -75,9 +75,24 @@ const CardDetail = () => {
       car_id: carId,
     };
 
-    // Post API, payload and config to get orderID
+    // Post API, payload and config to get orderID (old version)
+  //   axios
+  //     .post(`https://bootcamp-rent-cars.herokuapp.com/customer/order`, payload, config)
+  //     .then((res) => {
+  //       console.log("This is customer order", res);
+  //       setOrderId(res.data.id);
+  //       setTotalPriceApi(res.data.total_price);
+  //       setTimeout(() => {
+  //         navigate(`/payment1/${res.data.id}/`);
+  //       }, 1000);
+  //     })
+  //     .catch((err) => console.log(err.message));
+  //   if (loginToken === false) {
+  //     navigate("/login/");
+  //   }
+  // };
     axios
-      .post(`https://bootcamp-rent-cars.herokuapp.com/customer/order`, payload, config)
+      .post(`https://api-car-rental.binaracademy.org/customer/order`, payload, config)
       .then((res) => {
         console.log("This is customer order", res);
         setOrderId(res.data.id);
