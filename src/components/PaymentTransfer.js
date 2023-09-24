@@ -19,8 +19,10 @@ const PaymentTransfer = () => {
       },
     };
 
+    // Old version API Link
+    // https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         // console.log(res.data);
         setTotalPrice("Rp " + Intl.NumberFormat("id-ID").format(res.data.total_price));
@@ -86,7 +88,7 @@ const PaymentTransfer = () => {
         }
       })()}
 
-<div className="heading-account-number">
+      <div className="heading-account-number">
         <h6>Nomor Rekening</h6>
       </div>
       <div className="account-number">

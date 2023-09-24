@@ -145,8 +145,11 @@ const PaymentConfirmation = () => {
     console.log(formData);
     formData.append("slip", files[0]);
     console.log(formData);
+    
+    // Old version API Link
+    // https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
     axios
-      .put(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}/slip`, formData, config)
+      .put(`https://api-car-rental.binaracademy.org/customer/order/${id}/slip`, formData, config)
       .then((res) => {
         // console.log(res.data.slip);
         setPaymentProof(res.data.slip);

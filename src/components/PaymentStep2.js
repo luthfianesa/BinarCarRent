@@ -23,8 +23,10 @@ const PaymentStep2 = () => {
       },
     };
 
+    // Old version API Link
+    // https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}
     axios
-      .get(`https://bootcamp-rent-cars.herokuapp.com/customer/order/${id}`, config)
+      .get(`https://api-car-rental.binaracademy.org/customer/order/${id}`, config)
       .then((res) => {
         // console.log(res);
         setOrderId(res.data.id);
@@ -59,7 +61,6 @@ const PaymentStep2 = () => {
               })()}
             </div>
             <div className="orderId">
-              
               <h6>
                 Order ID: <span>{orderId}</span>
               </h6>
